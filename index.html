@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>resume checker</title>
+</head>
+<body>
+    
+        <header>
+            <h1>Resume Checker</h1>
+        </header>
+        <main>
+            <form id="resume-form">
+                <label for="resume">Upload your resume:</label>
+                <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+                <button type="submit" id="submit-btn">Check my resume</button>
+            </form>
+            <div id="feedback">
+                <h2>Feedback:</h2>
+                <p id="rating"></p>
+                <ul id="suggestions"></ul>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; 2023 Job Tracker</p>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>
